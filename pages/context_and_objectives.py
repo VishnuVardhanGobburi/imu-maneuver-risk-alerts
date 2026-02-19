@@ -71,23 +71,23 @@ page_cards = [
         "Shows how IMU data is transformed to enable maneuver prediction and alert decisions. Covers data quality checks, feature engineering, and creation of axis-level instability signals.",
     ),
     (
-        "Same Maneuver ≠ Same Behavior",
+        "Same Move, Different Risk",
         "Shows that the same maneuver can have very different risk intensity. Connects driver instability, road instability, and yaw behavior to demonstrate that risk depends on context, not just labels.",
     ),
     (
-        "Driver vs Road Attribution",
+        "Driver or Road Who’s Responsible?",
         "Separates driver-induced instability (AccX, AccY, GyroZ) from road-induced instability (AccZ), enabling clear attribution of risk to driving behavior versus road conditions.",
     ),
     (
-        "Decision Engine",
+        "How Alerts Are Decided?",
         "Uses normalized Driver Instability and Road Instability (0–1) to apply ordered rules. Level 0 returns no alert, Levels 1–3 produce cause, severity, and a message.",
     ),
     (
-        "Maneuver Prediction",
+        "Can We Predict the Move?",
         "Trains a Random Forest to classify driving maneuvers. Shows test accuracy, per-class metrics, confusion matrix, and feature importance.",
     ),
     (
-        "Raw-to-Alerts Pipeline",
+        "What Happens After the Sensors Trigger?",
         "Runs the full flow from raw_sensor_data.csv to alerts. Lets you select a raw record, view it, and see the pipeline output (predictions and alert) for that TaskID.",
     ),
 ]
